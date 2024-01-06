@@ -1,0 +1,13 @@
+main .mainContent .storysContainer .storys .storysAccounts {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+}
+
+main .mainContent .storysContainer .storys .storysAccounts .storyAccount img{
+     width: 125px !important;
+     height: 125px !important;
+     border-radius: 100px !important;
+     border: #D9D9D9 !important;
+
+}

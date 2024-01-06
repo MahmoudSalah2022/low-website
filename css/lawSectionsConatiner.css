@@ -1,0 +1,27 @@
+main .content .lawSectionsConatiner{}
+main .content .lawSectionsConatiner .lawSectoins{}
+main .content .lawSectionsConatiner .lawSectoins .lawSection{
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+}
+
+main .content .lawSectionsConatiner .lawSectoins .lawSection .section{
+    position: relative;
+}
+main .content .lawSectionsConatiner .lawSectoins .lawSection .section .sectionImg{
+    width: 260px !important;
+    height: 100px !important;
+}
+main .content .lawSectionsConatiner .lawSectoins .lawSection .section .sectionTitle{
+    position: absolute;
+    top: 50px !important;
+    margin: 0px 31px 0px 0px !important;
+    color: #FFF;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px;
+}
