@@ -1,22 +1,38 @@
-// const lawSection = document.querySelector('.lawSection');
+// const lawSection = document.querySelector('#lawSection');
+// let mouseDown = false;
+// let startX, scrollLeft;
 
-// lawSection.addEventListener('dragstart', dragStart);
-// lawSection.addEventListener('dragover', dragOver);
-// lawSection.addEventListener('drop', drop);
 
-// function dragStart(event) {
-//   event.dataTransfer.setData('text/plain', event.target.id);
+// let startDragging = function (e) {
+//   mouseDown = true;
+//   startX = e.pageX - lawSection.offsetLeft;
+//   scrollLeft = lawSection.scrollLeft;
+// };
+// let stopDragging = function (event) {
+//   mouseDown = false;
+// };
+// if(lawSection){
+
+//   lawSection.addEventListener('mousemove', (e) => {
+//     e.preventDefault();
+//     if(!mouseDown) { return; }
+//     const x = e.pageX - lawSection.offsetLeft;
+//     const scroll = x - startX;
+//     lawSection.scrollLeft = scrollLeft - scroll;
+//   });
+
+//   // Add the event listeners
+//   lawSection.addEventListener('mousedown', startDragging, false);
+//   lawSection.addEventListener('mouseup', stopDragging, false);
+//   lawSection.addEventListener('mouseleave', stopDragging, false);
+
 // }
 
-// function dragOver(event) {
+// lawSection.addEventListener('wheel', (event) => {
 //   event.preventDefault();
-// }
 
-// function drop(event) {
-//   event.preventDefault();
-//   const data = event.dataTransfer.getData('text/plain');
-//   const draggableElement = document.getElementById(data);
-//   const dropzone = event.target;
-//   dropzone.appendChild(draggableElement);
-// }
+//   lawSection.scrollBy({
+//     left: event.deltaY < 0 ? -30 : 30,
     
+//   });
+// });
