@@ -6,6 +6,8 @@
 @import "moreActiveLowersConatiner.css";
 @import "profile.css";
 @import "smScreen.css";
+@import "cricleConsultantAskConatainer.css";
+
 
 *{
     padding: 0px !important;
@@ -15,6 +17,7 @@
 
 body{
     background-color: #F8F8F8 !important ;
+    
 }
 
 ul{
@@ -39,6 +42,11 @@ p{
 .mainContent{
     margin: 24px 0px !important;
 }
+
+.mainContent .content{
+position: relative;
+}
+
 
 .mainContent .content {
     padding-left: 24px !important;

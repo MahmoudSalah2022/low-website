@@ -6,6 +6,11 @@ main .content .lawSectionsConatiner .lawSectoins .lawSection{
     overflow-x: auto;
 }
 
+main .content .lawSectionsConatiner .lawSectoins .lawSection::-webkit-scrollbar {
+    display: none;
+}
+
+
 main .content .lawSectionsConatiner .lawSectoins .lawSection .section{
     position: relative;
 }
