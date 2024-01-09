@@ -4,6 +4,12 @@ main .mainContent .sidebarContainer{
     top: 50px;
 }
 
+main .mainContent .sidebarContainer .sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 main .mainContent .sidebarContainer .sidebar .lawerJoin{
     width: 100%;
     padding: 16px !important;

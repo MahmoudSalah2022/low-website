@@ -1,11 +1,4 @@
-main .mainContent .sidebarContainer .sidebar{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    position: fixed;
-    height: 100%;
-    overflow-y: hidden;
-}
+
 main .mainContent .sidebarContainer .sidebar .varafictionConatainer .varafictionStauts .varafictionStaut{
     display: flex;
     flex-direction: row;
