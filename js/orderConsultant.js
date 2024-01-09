@@ -7,9 +7,6 @@ closeBtn.forEach(close => {
         if(payedConsultant.classList.contains('display')){
             payedConsultant.classList.remove('display')
             payedConsultant.classList.add('hidden')
-        }else{
-            payedConsultant.classList.add('display')
-            payedConsultant.classList.remove('hidden')
         }
     });
     

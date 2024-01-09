@@ -17,7 +17,7 @@
         display: none;
         flex-direction: column;
         height: fit-content;
-        padding: 0px 24px !important;
+        padding: 16px !important;
         margin-top: 24px !important;
         gap: 16px;
         border-radius: 8px;
@@ -27,7 +27,9 @@
 
     .HeaderContanier .smScreen .logoAndNav {
         max-width: 100% ;
-        padding-top: 16px !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         gap: 18px;
     }
 
@@ -50,9 +52,46 @@
         height: 44.426px;
         flex-shrink: 0;
     }
-    
 
-    .HeaderContanier .smScreen .searchContanier{
+    .HeaderContanier .smScreen .logoAndNav .burgerMenu{
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var( --burgerMenu-background-color);
+        padding: 8px !important;
+        border-radius: 8px;
+    }
+
+    .HeaderContanier .smScreen .logoAndNav .burgerMenu svg{
+
+        font-size: 24px;
+        color: var( --burgerMenu-icon-color);
+
+    }
+    
+    .HeaderContanier .smScreen .menuContainer{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+        background-color: var(--main-background-color1);
+        padding: 16px !important;
+        transform: translateX(770px);
+        transition: transform 0.3s ease;
+    }
+
+    .HeaderContanier .smScreen .menuContainer.open{
+        transform: translateX(0px);
+    }
+
+    .HeaderContanier .smScreen .menuContainer .closeBtn{
+        font-size: 24px;
+    }
+
+    .HeaderContanier .smScreen .menuContainer .searchContanier{
         display: flex;
         height: 50px;
         padding: 0px 8px !important;
@@ -64,18 +103,18 @@
         background: #FFF;
         box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
-    .HeaderContanier .smScreen .searchContanier .searchInput{
+    .HeaderContanier .smScreen .menuContainer .searchContanier .searchInput{
         border: none;
         width: -webkit-fill-available;
         height: 40px;
     }
-    .HeaderContanier .smScreen .searchContanier .filterButton{
+    .HeaderContanier .smScreen .menuContainer .searchContanier .filterButton{
         width: 23px;
         height: 23px;
         background-color: #ffffff00;
         border: none;
     }
-    .HeaderContanier .smScreen .searchContanier .searchButton{
+    .HeaderContanier .smScreen .menuContainer .searchContanier .searchButton{
         width: 50px;
         height: 39px;
         background-color: black;
@@ -83,10 +122,10 @@
         border: none;
         border-radius: 8px;
     }
-    .HeaderContanier .smScreen .orderButton{
+    .HeaderContanier .smScreen .menuContainer .orderButton{
         max-width: 150px;
     }
-    .HeaderContanier .smScreen .orderButton p{
+    .HeaderContanier .smScreen .menuContainer .orderButton p{
         color: #FFF;
         font-family: Cairo;
         font-size: 1rem;
@@ -96,19 +135,19 @@
         line-height: 0px;
         margin-bottom: 0px !important;
     }
-    .HeaderContanier .smScreen .orderButton svg{
+    .HeaderContanier .smScreen .menuContainer .orderButton svg{
         width: 27.6px;
         height: 20.444px;
         flex-shrink: 0;
         color: #FFF;
     }
-    .HeaderContanier .smScreen .logoAndNav nav .container-fluid{
+    .HeaderContanier .smScreen .menuContainer .logoAndNav nav .container-fluid{
         justify-content: end;
     }
-    .HeaderContanier .smScreen .logoAndNav .nav{
+    .HeaderContanier .smScreen .menuContainer .logoAndNav .nav{
         display: flex;
     }
-    .HeaderContanier .smScreen .logoAndNav .nav ul{
+    .HeaderContanier .smScreen .menuContainer .logoAndNav .nav ul{
         display: flex;
         width: fit-content;
         list-style: none;
@@ -116,7 +155,7 @@
         margin-bottom: 0px !important;
     
     }
-    .HeaderContanier .smScreen .logoAndNav .nav ul li a{
+    .HeaderContanier .smScreen .menuContainer .logoAndNav .nav ul li a{
         color: #000;
         font-family: Cairo;
         font-size: 18px;
@@ -131,21 +170,18 @@
         border-bottom: 1px solid #d9d9d94a !important;
     }
 
-    .HeaderContanier .smScreen .consultantAndSign{
-        padding-top: 8px !important;
-    }
-    .HeaderContanier .smScreen .consultantAndSign .userContainer {
+    .HeaderContanier .smScreen .menuContainer .userContainer {
         display: flex;
         justify-content: flex-end !important;
     }
-    .HeaderContanier .smScreen .consultantAndSign .userContainer .profile{
+    .HeaderContanier .smScreen .menuContainer .userContainer .profile{
         width: 50px;
         height: 50px;
         position: relative;
         border-radius: 100px;
         background: #1E1E1E;
     }
-    .HeaderContanier .smScreen .consultantAndSign .userContainer .profile img{
+    .HeaderContanier .smScreen .menuContainer .userContainer .profile img{
         width: 40px;
     height: 40px;
     position: absolute;
@@ -174,5 +210,9 @@
         display: none;
     }
 
+    main .mainContent .sidebarContainer .sidebar {
+        position:relative;
+        overflow-y:unset;
+    }
     
 }

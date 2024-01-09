@@ -1,9 +1,12 @@
-main .mainContent .sidebar{
+main .mainContent .sidebarContainer .sidebar{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    position: fixed;
+    height: 100%;
+    overflow-y: hidden;
 }
-main .mainContent .sidebar .varafictionConatainer .varafictionStauts .varafictionStaut{
+main .mainContent .sidebarContainer .sidebar .varafictionConatainer .varafictionStauts .varafictionStaut{
     display: flex;
     flex-direction: row;
     gap: 8px;
@@ -11,50 +14,50 @@ main .mainContent .sidebar .varafictionConatainer .varafictionStauts .varafictio
     padding-bottom: 12px !important;
 }
 
-main .mainContent .sidebar .varafictionConatainer .varafictionStauts .varafictionStaut p{
+main .mainContent .sidebarContainer .sidebar .varafictionConatainer .varafictionStauts .varafictionStaut p{
     font-size: 24px !important;
 
 }
 
-main .mainContent .sidebar .varafictionConatainer .varafictionStauts .varafictionStautsTitle{
+main .mainContent .sidebarContainer .sidebar .varafictionConatainer .varafictionStauts .varafictionStautsTitle{
 
     width: 100%;
-    background-color: white;
+    background-color: var(--main-background-color2);
     padding: 8px !important;
     border-radius: 8px;
 }
 
-main .mainContent .sidebar .varafictionConatainer .varafictionStauts .varafictionStaut img{
+main .mainContent .sidebarContainer .sidebar .varafictionConatainer .varafictionStauts .varafictionStaut img{
     width: 32px !important;
 }
 
-main .mainContent .sidebar .contactTimeContainer .contactTimeTitle p{
+main .mainContent .sidebarContainer .sidebar .contactTimeContainer .contactTimeTitle p{
 
     font-size: 24px !important;
 
 }
 
-main .mainContent .sidebar .contactTimeContainer .contactTimeInfo {
+main .mainContent .sidebarContainer .sidebar .contactTimeContainer .contactTimeInfo {
     display: flex;
     font-size: 18px !important;
     align-items: center;
-    background-color: white;
+    background-color: var(--main-background-color2);
     gap: 8px;
     padding: 8px !important;
     border-radius: 8px;
 }
 
-main .mainContent .sidebar .contactTimeContainer .contactTimeInfo .contactTimeInfoStauts p{
+main .mainContent .sidebarContainer .sidebar .contactTimeContainer .contactTimeInfo .contactTimeInfoStauts p{
 
     background-color:  #0FB820 ;
     padding: 8px !important;
-    color: white;
+    color: var(--main-background-color2);
     font-size: 18px;
     border-radius: 8px;
 
 }
 
-main .mainContent .sidebar .askLawerContainer{
+main .mainContent .sidebarContainer .sidebar .askLawerContainer{
     width: 100%;
     padding: 16px !important;
     text-align: center;
@@ -63,76 +66,76 @@ main .mainContent .sidebar .askLawerContainer{
     align-items: center;
     flex-shrink: 0;
     border-radius: 8px;
-    background: #FFF;
+    background: var(--main-background-color2);
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
     gap: 16px;
 }
 
-main .mainContent .sidebar .askLawerContainer p{
+main .mainContent .sidebarContainer .sidebar .askLawerContainer p{
     margin: 0px !important;
 }
-main .mainContent .sidebar .askLawerContainer .lawerName{
+main .mainContent .sidebarContainer .sidebar .askLawerContainer .lawerName{
     font-size: 24px !important;
     font-weight: 700;
 }
 
-main .mainContent .sidebar .followMeContainer .followMeTitle p{
+main .mainContent .sidebarContainer .sidebar .followMeContainer .followMeTitle p{
 
     font-size: 24px !important;
 }
 
-main .mainContent .sidebar .followMeContainer .followMeChannel .followMeChannelIcon{
+main .mainContent .sidebarContainer .sidebar .followMeContainer .followMeChannel .followMeChannelIcon{
 
     padding: 8px !important;
 
 }
 
-main .mainContent .sidebar .followMeContainer .followMeChannel .followMeChannelIcon svg{
+main .mainContent .sidebarContainer .sidebar .followMeContainer .followMeChannel .followMeChannelIcon svg{
 
     font-size: 32px !important;
     color: #2087E7  !important;
 
 }
 
-main .mainContent .sidebar .numberAndAnalysis{
+main .mainContent .sidebarContainer .sidebar .numberAndAnalysis{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main .mainContent .sidebar .numberAndAnalysis .numberAndAnalysisTitle{ 
+main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalysisTitle{ 
     width: 100%;
 }
 
-main .mainContent .sidebar .numberAndAnalysis .numberAndAnalysisTitle h4{ 
+main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalysisTitle h4{ 
     font-family: Cairo;
     width: 100%;
     text-align: right;  
 }
 
-main .mainContent .sidebar .numberAndAnalysis .numberAndAnalysisContaner{
+main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalysisContaner{
     width: inherit;
-    background-color: white;
+    background-color: var(--main-background-color2);
     text-align: center;
     padding: 16px !important;
 }
 
-main .mainContent .sidebar .numberAndAnalysis .numberAndAnalysisContaner .numberAndIcon{
+main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalysisContaner .numberAndIcon{
     padding: 8px !important;
 }
 
-main .mainContent .sidebar .numberAndAnalysis .numberAndAnalysisContaner .numberAndIcon p{
+main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalysisContaner .numberAndIcon p{
     margin-bottom: 0px !important;
 }
 
-main .mainContent .sidebar .numberAndAnalysis .numberAndAnalysisContaner .numberAndIcon svg{
+main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalysisContaner .numberAndIcon svg{
 
     font-size: 24px !important;
 
 }
 
-main .mainContent .sidebar .adsBanner img{
+main .mainContent .sidebarContainer .sidebar .adsBanner img{
 
     width: 240 px !important;
     height: 218 px;

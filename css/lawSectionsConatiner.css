@@ -17,7 +17,7 @@ main .content .lawSectionsConatiner .lawSectoins .lawSection .section .sectionIm
     width: 260px !important;
     height: 100px !important;
 }
-main .content .lawSectionsConatiner .lawSectoins .lawSection .section .sectionTitle{
+main .content .lawSectionsConatiner .lawSectoins .lawSection .section .sectionTitle {
     position: absolute;
     top: 50px !important;
     margin: 0px 31px 0px 0px !important;
