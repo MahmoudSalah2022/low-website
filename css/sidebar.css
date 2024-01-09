@@ -1,11 +1,8 @@
-/* main .mainContent .sidebarContainer .sidebar{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    position: fixed;
-    height: 100%;
-    overflow-y: hidden;
-} */
+main .mainContent .sidebarContainer{
+    position: sticky;
+    height: 50%;
+    top: 50px;
+}
 
 main .mainContent .sidebarContainer .sidebar .lawerJoin{
     width: 100%;
