@@ -17,6 +17,7 @@ const orderTextConsulting = document.querySelector('.orderTextConsultingContaine
 orderTextButton.forEach(order => {
 
     order.addEventListener('click', () => {
+        document.querySelector('body').classList.add('no-scroll');
         if(orderTextConsulting.classList.contains('display')){
             orderTextConsulting.classList.remove('display')
             orderTextConsulting.classList.add('hidden')

@@ -3,6 +3,7 @@ main .content .lawSectionsConatiner .lawSectoins .lawSection{
     gap: 8px;
     overflow-x: auto;
     cursor:grab;
+    padding: 0px;
 }
 
 main .content .lawSectionsConatiner .lawSectoins .lawSection::-webkit-scrollbar  { 
@@ -14,16 +15,15 @@ main .content .lawSectionsConatiner .lawSectoins .lawSection .section{
     cursor: pointer;
 }
 main .content .lawSectionsConatiner .lawSectoins .lawSection .section .sectionImg{
-    width: 260px !important;
-    height: 100px !important;
+    max-width: 260px !important;
+    max-height: 100px !important;
 }
 main .content .lawSectionsConatiner .lawSectoins .lawSection .section .sectionTitle {
     position: absolute;
     top: 50px !important;
     margin: 0px 31px 0px 0px !important;
     color: #FFF;
-    text-align: right;
-    font-family: Cairo;
+     
     font-size: 32px;
     font-style: normal;
     font-weight: 700;

@@ -18,6 +18,7 @@ const orderPayedConsultant = document.querySelector('.payedConsultantConatainer'
 orderButton.forEach(order => {
 
     order.addEventListener('click', () => {
+        document.querySelector('body').classList.add('no-scroll');
         if(orderPayedConsultant.classList.contains('display')){
             orderPayedConsultant.classList.remove('display')
             orderPayedConsultant.classList.add('hidden')

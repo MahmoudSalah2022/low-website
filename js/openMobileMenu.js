@@ -9,5 +9,5 @@ burgerMenu.addEventListener('click', () => {
 
 closeMenuBtn.addEventListener('click', () => {
     menuContainer.classList.toggle('open');
-    document.querySelector('body').classList.toggle('no-scroll');
+    document.querySelector('body').classList.remove('no-scroll');
   });

@@ -35,12 +35,14 @@
 
     
     .HeaderContanier .smScreen .logoAndNav .logo{
-        display: flex;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
         width: fit-content;
     }
     .HeaderContanier .smScreen .logoAndNav .logo p{
         color: #000;
-        font-family: Cairo;
+         
         font-size: 30px;
         font-style: normal;
         font-weight: 400;
@@ -54,25 +56,27 @@
     }
 
     .HeaderContanier .smScreen .logoAndNav .burgerMenu{
-        width: fit-content;
-        display: flex;
+        width: fit-content !important;
+        display: flex !important;
         justify-content: center;
         align-items: center;
         background-color: var( --burgerMenu-background-color);
-        padding: 8px !important;
+        padding: 10px !important;
         border-radius: 8px;
     }
 
-    .HeaderContanier .smScreen .logoAndNav .burgerMenu svg{
+    .HeaderContanier .smScreen .logoAndNav .burgerMenu .fas{
 
-        font-size: 24px;
+        font-size: 26px;
         color: var( --burgerMenu-icon-color);
 
     }
     
     .HeaderContanier .smScreen .menuContainer{
+        max-width: 100% !important;
         width: 100%;
-        height: 100vh;
+        max-height: 110vh;
+        height: 110vh;
         position: absolute;
         left: 0;
         top: 10px;
@@ -129,7 +133,7 @@
     }
     .HeaderContanier .smScreen .menuContainer .orderButton p{
         color: #FFF;
-        font-family: Cairo;
+         
         font-size: 1rem;
         font-style: normal;
         font-weight: 400;
@@ -159,7 +163,7 @@
     }
     .HeaderContanier .smScreen .menuContainer .logoAndNav .nav ul li a{
         color: #000;
-        font-family: Cairo;
+         
         font-size: 18px;
         font-style: normal;
         font-weight: 400;

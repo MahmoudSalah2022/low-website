@@ -1,6 +1,3 @@
-main .mainContent .content{
-
-}
 
 main .mainContent .content .profileInfoContainer {
 
@@ -79,12 +76,12 @@ main .mainContent .content .lawerServicesContanier .lawerServicesTitle p{
 
 main .mainContent .content .lawerServicesContanier .lawerServices .lawerService{
 
-    display: flex;  
-    align-content: center;
+    display: flex; 
+    align-items: center;
     gap: 8px ;
 }
 
-main .mainContent .content .lawerServicesContanier .lawerServices .lawerService svg {
+main .mainContent .content .lawerServicesContanier .lawerServices .lawerService .fas {
 
     font-size: 32px;
 
@@ -92,7 +89,6 @@ main .mainContent .content .lawerServicesContanier .lawerServices .lawerService 
 
 main .mainContent .content .lawerServicesContanier .lawerServices .lawerService p {
     color: #1E1E1E;
-    font-family: Cairo;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -112,7 +108,11 @@ main .mainContent .content .contactUsContainer .contactUsTitle p{
 main .mainContent .content .contactUsContainer .contactUs .contactUsDatas {
     background-color: white;
     padding: 16px 16px 0px 16px !important;
-    border-radius: 8px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+main .mainContent .content .contactUsContainer .contactUs{
+    display: flex;
 }
 
 main .mainContent .content .contactUsContainer .contactUs .contactUsDatas .contactUsData{
@@ -145,7 +145,6 @@ main .mainContent .content .contactUsContainer .contactUs .locationMap iframe{
     width: 100%;
     height: 100%;
     border: none;
-    border-radius: 8px;
-    margin-right: 24px;
+    border-radius: 8px 0px 0px 8px;
 
-}
+}   
