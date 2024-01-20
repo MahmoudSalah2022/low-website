@@ -27,15 +27,16 @@ if(lawSection){
   lawSection.addEventListener('mouseleave', stopDragging, false);
 
 }
-
-lawSection.addEventListener('wheel', (event) => {
-  event.preventDefault();
-
-  lawSection.scrollBy({
-    left: event.deltaY < 0 ? -30 : 30,
-    
+if(lawSection){
+  lawSection.addEventListener('wheel', (event) => {
+    event.preventDefault();
+  
+    lawSection.scrollBy({
+      left: event.deltaY < 0 ? -30 : 30,
+      
+    });
   });
-});
+}
 
 let startStoryDragging = function (e) {
   mouseDown = true;
@@ -61,11 +62,13 @@ if(storysAccounts){
 
 }
 
-storysAccounts.addEventListener('wheel', (event) => {
-  event.preventDefault();
-
-  storysAccounts.scrollBy({
-    left: event.deltaY < 0 ? -30 : 30,
-    
+if(storysAccounts){
+  storysAccounts.addEventListener('wheel', (event) => {
+    event.preventDefault();
+  
+    storysAccounts.scrollBy({
+      left: event.deltaY < 0 ? -30 : 30,
+      
+    });
   });
-});
+}

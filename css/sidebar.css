@@ -26,6 +26,7 @@ main .mainContent .sidebarContainer .sidebar .lawerJoin{
 
 main .mainContent .sidebarContainer .sidebar .lawerJoin p{
     margin: 0px !important;
+    text-align: center;
     width: 250px;   
 }
 
@@ -41,9 +42,10 @@ main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalys
 }
 
 main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalysisTitle h4{ 
-    font-family: Cairo;
+     
     width: 100%;
-    text-align: right;  
+    text-align: right;
+       
 }
 
 main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalysisContaner{
@@ -54,23 +56,37 @@ main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalys
 }
 
 main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalysisContaner .numberAndIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 8px !important;
 }
 
 main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalysisContaner .numberAndIcon p{
     margin-bottom: 0px !important;
+    text-align: center;
 }
 
-main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalysisContaner .numberAndIcon svg{
+main .mainContent .sidebarContainer .sidebar .numberAndAnalysis .numberAndAnalysisContaner .numberAndIcon .far{
 
     font-size: 24px !important;
+    text-align: center;
 
+}
+
+main .mainContent .sidebarContainer .sidebar .adsBanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main .mainContent .sidebarContainer .sidebar .adsBanner img{
 
-    width: 240 px !important;
-    height: 218 px;
+    width: 250 px !important;
+    height: 250 px !important;
     border-radius: 8px;
+    border: 1px solid grey;
 
 }
