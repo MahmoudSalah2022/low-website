@@ -25,6 +25,8 @@
         box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
+
+
     .HeaderContanier .smScreen .logoAndNav {
         max-width: 100% ;
         display: flex;
@@ -35,14 +37,12 @@
 
     
     .HeaderContanier .smScreen .logoAndNav .logo{
-        display: flex !important;
-        justify-content: center;
-        align-items: center;
+        display: flex;
         width: fit-content;
     }
     .HeaderContanier .smScreen .logoAndNav .logo p{
         color: #000;
-         
+        font-family: Cairo;
         font-size: 30px;
         font-style: normal;
         font-weight: 400;
@@ -56,27 +56,43 @@
     }
 
     .HeaderContanier .smScreen .logoAndNav .burgerMenu{
-        width: fit-content !important;
-        display: flex !important;
+        width: fit-content;
+        display: flex;
         justify-content: center;
         align-items: center;
         background-color: var( --burgerMenu-background-color);
-        padding: 10px !important;
+        padding: 8px !important;
         border-radius: 8px;
     }
 
-    .HeaderContanier .smScreen .logoAndNav .burgerMenu .fas{
+    .HeaderContanier .smScreen .logoAndNav .burgerMenu svg{
 
-        font-size: 26px;
+        font-size: 24px;
         color: var( --burgerMenu-icon-color);
 
     }
+
+    .HeaderContanier .smScreen .governorat .dropdown {
+        max-width: 187px !important;
+        width: 187px !important;
+    
+    }
+
+    .HeaderContanier .smScreen .governorat .dropdown .dropdown-menu{
+
+        width: inherit;
+    
+    }
+    
+    .HeaderContanier .smScreen .governorat .dropdown .dropdown-menu .dropdown-item{
+        width: inherit;
+        padding: 0.25rem 1rem !important;
+        border-bottom: 1px solid #d9d9d94a !important;
+    }
     
     .HeaderContanier .smScreen .menuContainer{
-        max-width: 100% !important;
         width: 100%;
-        max-height: 110vh;
-        height: 110vh;
+        height: 100vh;
         position: absolute;
         left: 0;
         top: 10px;
@@ -133,7 +149,7 @@
     }
     .HeaderContanier .smScreen .menuContainer .orderButton p{
         color: #FFF;
-         
+        font-family: Cairo;
         font-size: 1rem;
         font-style: normal;
         font-weight: 400;
@@ -163,7 +179,7 @@
     }
     .HeaderContanier .smScreen .menuContainer .logoAndNav .nav ul li a{
         color: #000;
-         
+        font-family: Cairo;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;

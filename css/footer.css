@@ -1,5 +1,5 @@
 .footerContainer{
-    display: flex !important;
+    display: flex;
     flex-direction: column;
     height: fit-content;
     padding: 16px !important;

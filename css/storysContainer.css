@@ -3,7 +3,6 @@ main .mainContent .storysContainer .storys .storysAccounts {
     gap: 8px;
     overflow-x: auto;
     cursor: grab;
-    padding: 0px;
 }
 
 main .mainContent .storysContainer .storys .storysAccounts::-webkit-scrollbar {
@@ -12,15 +11,12 @@ main .mainContent .storysContainer .storys .storysAccounts::-webkit-scrollbar {
 
 main .mainContent .storysContainer .storys .storysAccounts .storyAccount{
     cursor: pointer;
-    width: 125px !important;
-    height: 125px !important;
-    border-radius: 100% !important;
 }
 
 main .mainContent .storysContainer .storys .storysAccounts .storyAccount img{
-     max-width: 125px !important;
-     max-height: 125px !important;
-     border-radius: 100% !important;
+     width: 125px !important;
+     height: 125px !important;
+     border-radius: 100px !important;
      border: #D9D9D9 !important;
 
 }

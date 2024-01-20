@@ -1,3 +1,20 @@
+.HeaderContanier .lgScreen .governorat .dropdown {
+    max-width: 187px !important;
+    width: 187px !important;
+
+}
+.HeaderContanier .lgScreen .governorat .dropdown .dropdown-menu{
+
+    width: inherit;
+
+}
+
+.HeaderContanier .lgScreen .governorat .dropdown .dropdown-menu .dropdown-item{
+    width: inherit;
+    padding: 0.25rem 1rem !important;
+    border-bottom: 1px solid #d9d9d94a !important;
+}
+
 .HeaderContanier .lgScreen{
     display: none;
     height: 100px;
@@ -20,7 +37,7 @@
 }
 .HeaderContanier .lgScreen .logo p{
     color: #000;
-     
+    font-family: Cairo;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -31,17 +48,6 @@
     width: 49.362px;
     height: 44.426px;
     flex-shrink: 0;
-}
-
-.HeaderContanier .lgScreen .governorat .dropdown .dropdown-menu{
-
-    width: inherit;
-
-}
-
-.HeaderContanier .lgScreen .governorat .dropdown .dropdown-menu .dropdown-item{
-    padding: 0.25rem 1rem !important;
-    border-bottom: 1px solid #d9d9d94a !important;
 }
 
 
@@ -61,10 +67,6 @@
     border: none;
     width: -webkit-fill-available;
     height: 40px;
-    text-align: right; 
-}
-.HeaderContanier .lgScreen .searchContanier .searchInput:focus-visible{
-    outline: none;
 }
 .HeaderContanier .lgScreen .searchContanier .filterButton{
     width: 23px;
@@ -79,12 +81,12 @@
     color: white;
     border: none;
     border-radius: 8px;
-    padding: 8px 16px !important;
 }
 
 .HeaderContanier .lgScreen .orderButton p{
     color: #FFF;
-    font-size: 22px;
+    font-family: Cairo;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 23px; /* 95.833% */
@@ -110,7 +112,7 @@
 }
 .HeaderContanier .lgScreen .nav ul li a{
     color: #000;
-     
+    font-family: Cairo;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;

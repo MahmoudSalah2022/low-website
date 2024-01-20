@@ -7,6 +7,7 @@ main .content .recentlyConsultantsContanier .recentlyConsultant{
 main .content .recentlyConsultantsContanier .recentlyConsultant .consultantTitle p{
 
     color: #1E1E1E;
+    text-align: right;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -33,7 +34,9 @@ main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsul
 
 main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsultant .consultantInfo p{
     color: #B9ADAD;
-    font-size: 12px;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 10px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -66,7 +69,7 @@ main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsul
     border: 5px solid #1475CF;
     background: #2087E7;
     color: var(--main-background-color2);
-     
+    text-align: right;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -84,8 +87,8 @@ main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsul
 main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsultant .answerSection .numbersOfAnswerAndLawer .firstLawer .lawerName{
 
     color: #1E1E1E;
-     
-     
+    text-align: right;
+    font-family: Cairo;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -99,7 +102,9 @@ main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsul
 main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsultant .answerSection .numbersOfAnswerAndLawer .firstLawer .firstLawerAnswer{
 
     color: #B9ADAD;
-    font-size: 12px;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 10px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -114,7 +119,9 @@ main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsul
 main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsultant .answerSection .consultantAnswer p{
 
     color: #1E1E1E;
-    font-size: 12px;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 11px;
     font-style: normal;
     font-weight: 500;
     line-height: 153.668%; /* 16.903px */
@@ -139,14 +146,18 @@ main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsul
     gap: 4px;
 }
 
-main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsultant .likeAndGoodAnswer .fas{
+main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsultant .likeAndGoodAnswer svg{
 
+    width: 12px;
+    height: 12px;
     flex-shrink: 0;
     color: #2087E7;
 }
 
 main .content .recentlyConsultantsContanier .recentlyConsultants .recentlyConsultant .likeAndGoodAnswer p{
     color: #D9D9D9;
+    text-align: right;
+    font-family: Cairo;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
