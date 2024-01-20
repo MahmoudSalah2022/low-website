@@ -8,6 +8,7 @@ main .mainContent .sidebarContainer .sidebar{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    align-items: center;
 }
 
 main .mainContent .sidebarContainer .sidebar .lawerJoin{

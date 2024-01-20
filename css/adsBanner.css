@@ -2,9 +2,13 @@ main .mainContent .content .adsBanner{
     width: 100%;
     background-color: gainsboro;
     height: 257px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-main .mainContent .content .adsBanner img{
-
-
+main .mainContent .content .adsBanner h4{
+text-align: center;
+font-size: 48px;
+color: rgb(172, 163, 163);
 }

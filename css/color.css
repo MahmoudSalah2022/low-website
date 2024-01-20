@@ -32,5 +32,13 @@
     --hover-button-border-color-1: #1475CF;
     --hover-button-fontColor-1: white;
     /*end button background and font color*/
+
+    /*start story color*/
+    --main-border-color1: #2a94f762;
+    --main-border-color2: #1c84e662;
+
+
+
+    /*end story color*/
     
 }

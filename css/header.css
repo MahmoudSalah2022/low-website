@@ -63,6 +63,9 @@
     background: var(--main-background-color2);
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
+.HeaderContanier .lgScreen .searchContanier .searchInput:focus-visible{
+    outline: none;
+}
 .HeaderContanier .lgScreen .searchContanier .searchInput{
     border: none;
     width: -webkit-fill-available;
@@ -124,9 +127,7 @@ nav .container-fluid #navbarNavDropdown .navbar-nav .dropdown .dropdown-menu li 
     padding: 0.25rem 1rem !important;
     border-bottom: 1px solid #d9d9d94a !important;
 }
-.HeaderContanier .lgScreen .userContainer{
 
-}
 .HeaderContanier .lgScreen .userContainer .profile{
     width: 50px;
 height: 50px;
